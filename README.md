@@ -42,7 +42,7 @@ El costo mensual por la gestión de redes sociales es de **$9,000 MXN + IVA**. E
 
 ## ¡Contáctanos para comenzar! 📩
 
-[Enlace a WhatsApp](https://api.whatsapp.com/send?phone=9511704539)
+[Envíanos un WhatsApp](https://api.whatsapp.com/send?phone=9511704539)
 
 ---
 
