@@ -46,8 +46,6 @@ El costo mensual por la gestión de redes sociales es de **$9,000 MXN + IVA**. E
 
 ---
 
-## Footer
-
 **Mercaredes Soluciones Digitales y Marketing**
 
 © 2024 Todos los derechos reservados.  
