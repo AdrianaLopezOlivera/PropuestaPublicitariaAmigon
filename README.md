@@ -8,7 +8,7 @@ En Mercaredes Soluciones Digitales y Marketing, entendemos la importancia de con
 
 ## Creación de Cuentas Profesionales
 
-- **📘 Facebook**: Para interacciones y promociones locales.
+- **📘 Facebook**: Para interacciones y publicidad pautada.
 - **📸 Instagram**: Enfoque visual y conexión emocional.
 - **🎥 TikTok**: Contenido dinámico y educativo para aumentar el alcance.
 
@@ -27,10 +27,10 @@ En Mercaredes Soluciones Digitales y Marketing, entendemos la importancia de con
 
 ## Beneficios
 
+- **🎯** Estrategias personalizadas para atraer más clientes.
 - **📈** Aumento de visibilidad y alcance de la marca en redes sociales.
 - **✨** Contenido profesional y alineado a la identidad de la clínica.
 - **🤝** Interacción directa con su audiencia para resolver dudas y fortalecer la confianza en sus servicios.
-- **🎯** Estrategias personalizadas para atraer más clientes.
 
 ---
 
