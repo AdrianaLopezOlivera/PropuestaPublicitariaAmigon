@@ -101,7 +101,8 @@ header h1 {
 
 .services span, .benefits span {
     font-size: 2rem;
-    margin-right: 10px;
+    margin-right: 4px;
+    display: inline-block;
 }
 
 .services li span, .benefits li span {
@@ -113,8 +114,8 @@ header h1 {
 .services .card, .benefits .card {
     background-color: #e9f7eb;
     border-radius: var(--card-border-radius);
-    padding: 1.2rem;
-    width: 45%;
+    padding: 0.7rem;
+    width: 47%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -189,15 +190,14 @@ footer p {
     color: #3b5998;
 }
 
-
 .instagram i {
     color: #E1306C;
 }
 
-
 .tiktok i {
     color: #000000;
 }
+
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -209,12 +209,25 @@ footer p {
         margin-top: 1rem;
     }
 
-    .services .card p, .benefits .card p {
-        margin: 0;
-        line-height: 1.5;
+    .services .card, .benefits .card {
+        width: 100%; 
+        padding: 1rem; 
+    }
+
+    .services span, .benefits span {
+        font-size: 1.5rem; 
     }
 
     .container {
-        padding: 1rem;
+        padding: 0.7rem;
+    }
+
+    .section {
+        padding: 1rem; 
+    }
+
+    .cta a {
+        font-size: 1.2rem;
+        padding: 0.8rem 1.6rem;
     }
 }
