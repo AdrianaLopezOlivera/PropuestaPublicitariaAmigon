@@ -3,187 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>  Propuesta - Amigón & Amigón  </title>
-    <style>
-        :root {
-            --primary-color: #007BFF;
-            --secondary-color: #6C757D;
-            --bg-color: #F8F9FA;
-            --text-color: #212529;
-            --highlight-color: #28A745;
-            --card-bg-color: #ffffff;
-            --card-border-radius: 10px;
-            --container-width: 1200px;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            line-height: 1.6;
-        }
-
-        header {
-            background-color: var(--primary-color);
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 1.5rem 0;
-            font-family: 'Roboto', sans-serif;
-            flex-wrap: wrap;
-        }
-
-        header .logo-container {
-            width: 100px;
-            height: 75px;
-            border-radius: 50%;
-            overflow: hidden;
-            background-color: #FFFFFF;
-        }
-
-        header .logo-container img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        header h1 {
-            margin-left: 7px;
-            margin-right: 7px;
-            font-size: 2.7rem;
-            letter-spacing: 1px;
-            text-align: center;
-        }
-
-        .container {
-            max-width: var(--container-width);
-            margin: auto;
-            padding: 2rem;
-        }
-
-        .section {
-            margin: 2rem 0;
-            padding: 1.5rem;
-            background: var(--card-bg-color);
-            border-radius: var(--card-border-radius);
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        .section h2 {
-            border-bottom: 3px solid var(--primary-color);
-            padding-bottom: 0.5rem;
-            color: var(--primary-color);
-            font-size: 2rem;
-        }
-
-        .services, .benefits {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 2rem;
-            justify-content: space-between;
-        }
-        .services span, .benefits span {
-            font-size: 2rem;
-            margin-right: 10px; /* Ajusta el tamaño según lo desees */
-        }
-
-
-        .services .card, .benefits .card {
-            background-color: #e9f7eb;
-            border-radius: var(--card-border-radius);
-            padding: 1.2rem;
-            width: 48%;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            display: flex;
-            align-items: center;
-            transition: transform 0.3s;
-        }
-
-        .services .card:hover, .benefits .card:hover {
-            transform: scale(1.05);
-        }
-
-        .services li, .benefits li {
-            display: flex;
-            align-items: center;
-            margin-left: 0.7rem;
-            font-size: 3rem;
-        }
-
-        .services li span, .benefits li span {
-            margin-right: 1rem;
-            margin-left: 0.7rem;
-            font-size: 3rem;
-        }
-
-        .cta {
-            text-align: center;
-            margin: 3rem 0;
-        }
-
-        .cta a {
-            text-decoration: none;
-            padding: 1rem 2rem;
-            background: var(--highlight-color);
-            color: white;
-            border-radius: 5px;
-            font-size: 1.5rem;
-            transition: background 0.3s;
-            display: inline-flex;
-            align-items: center;
-        }
-
-        .cta a:hover {
-            background: darkgreen;
-        }
-
-        .cta a span {
-            margin-left: 0.5rem;
-        }
-
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background: var(--secondary-color);
-            color: white;
-            font-size: 0.9rem;
-        }
-
-        footer p {
-            margin: 0;
-        }
-
-        /* Media Queries */
-        @media (max-width: 768px) {
-            header {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            header h1 {
-                font-size: 2.2rem;
-                margin-top: 1rem;
-            }
-
-            .services .card, .benefits .card {
-                width: 100%;
-            }
-
-            .container {
-                padding: 1rem;
-            }
-        }
-    </style>
+    <title>Propuesta - Amigón & Amigón</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <div class="logo-container">
             <img src="m.png" alt="Mercaredes Logo">
         </div>
-        <h1>  Propuesta de Servicios Publicitarios  </h1>
+        <h1 id="typewriter"></h1>
     </header>
 
     <div class="container">
@@ -278,5 +106,10 @@
         <p>Todos los derechos reservados.</p>
         <p>mercaredes.oax@gmail.com</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typewriter-effect@2.18.0/dist/core.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
