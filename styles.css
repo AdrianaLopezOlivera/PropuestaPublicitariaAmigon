@@ -93,7 +93,10 @@ header h1 {
     margin-left: 0.7rem;
     font-size: 3rem;
 }
-
+.services span, .benefits span {
+    font-size: 2rem;
+    margin-right: 10px;
+}
 .services li span, .benefits li span {
     margin-right: 1rem;
     margin-left: 0.7rem;
